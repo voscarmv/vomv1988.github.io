@@ -1,4 +1,4 @@
-@media (max-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (max-width:700px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
     #image{
         display: block;
         width: 75%;
@@ -17,7 +17,7 @@
         font-size: 20px;
     }
 }
-@media (min-width:482px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (min-width:782px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
     #image{
         display: block;
         width: 25%;
