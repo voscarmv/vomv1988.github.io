@@ -1,9 +1,30 @@
-#image{
-    display: block;
-    width: 25%;
-    max-width:90%;
-    margin: 0 auto;
+@media (max-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    #image{
+        display: block;
+        width: 75%;
+        max-width:90%;
+        margin: 0 auto;
+    }
+    #title {
+        text-align: center;
+        font-size: 50px;
+    }
+    #img-caption {
+        text-align: center;
+        font-size: 20px;
+    }
+    #tribute-info, #tribute-link{
+        font-size: 20px;
+    }
 }
-#title, #img-caption{
-    text-align: center;
+@media (min-width:482px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    #image{
+        display: block;
+        width: 25%;
+        max-width:90%;
+        margin: 0 auto;
+    }
+    #title, #img-caption{
+        text-align: center;
+    }
 }
