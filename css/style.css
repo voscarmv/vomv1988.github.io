@@ -2,4 +2,8 @@
     display: block;
     width: 25%;
     max-width:90%;
+    margin: 0 auto;
+}
+#title, #img-caption{
+    text-align: center;
 }
